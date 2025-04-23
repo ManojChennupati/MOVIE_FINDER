@@ -27,7 +27,7 @@ const getMovie = (fromGenreList = false) => {
           <div class="img-box">
             <img src="${data.Poster}" alt="Movie Poster">
           </div>
-          <h3 class="movie-title">${data.Title}</h3>
+          <h3 class="movie-title" style="color:white;">${data.Title}</h3>
           <div class="rating">
             <i class="fa-solid fa-star"></i>
             <h2>${data.imdbRating}</h2>
